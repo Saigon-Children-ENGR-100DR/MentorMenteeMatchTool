@@ -1,13 +1,13 @@
 # MentorMenteeMatchTool
 
 ### React Components Overview
-####LoginPage Component
+#### LoginPage Component
 The LoginPage component presents a simple and user-friendly interface for logging in. It features a logo, a welcoming header, and two buttons for 'Log In' and 'Sign Up' actions.
 
-####SignInPage Component
+#### SignInPage Component
 The SignInPage is designed for users to securely sign in to their accounts. It includes fields for 'Email' and 'Password', and a 'Sign In' button. This component can be integrated with authentication services for user verification.
 
-####SignUpPage Component
+#### SignUpPage Component
 The SignUpPage component allows new users to create an account. It has input fields for 'Date of Birth', 'Hometown', 'Email', 'Phone Number', and 'Password' (with confirmation). It also provides an option to upload a profile picture.
 
 Navigation
