@@ -1,7 +1,7 @@
 import './App.css';
-import LandingPage from './landing.jsx';
-import SignInPage from './signin.jsx';
-import SignUpPage from './signup.jsx';
+import LandingPage from './SamplePages/landing.jsx';
+import SignInPage from './SamplePages/signin.jsx';
+import SignUpPage from './SamplePages/signup.jsx';
 
 function App() {
   return (
