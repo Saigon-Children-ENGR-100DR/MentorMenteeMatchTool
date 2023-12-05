@@ -10,10 +10,10 @@ The SignInPage is designed for users to securely sign in to their accounts. It i
 #### SignUpPage Component
 The SignUpPage component allows new users to create an account. It has input fields for 'Date of Birth', 'Hometown', 'Email', 'Phone Number', and 'Password' (with confirmation). It also provides an option to upload a profile picture.
 
-Navigation
+#### Navigation
 Using React router will help you navigate throuhg the pages, there can also be page navigation implemented with FastAPI.
 
-Usage
+#### Usage
 Components are designed to be easily integrated into a React application. They can be rendered by importing into the main App.js file of a React project. Run `npm start` to run the selected component. Additional tools are listed in the project folder, along with React resources
 
 ### FastAPI routes Overview
