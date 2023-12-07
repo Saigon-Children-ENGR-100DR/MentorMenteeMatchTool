@@ -19,17 +19,17 @@ Components are designed to be easily integrated into a React application. They c
 ### FastAPI routes Overview
 
 #### GET Routes (Read)
-Get all users (/users): Retrieves a list of all users registered in the system. Authentication via a web token is required.
-Get specific user (/users/{user_id}): Fetches details of a specific user by their unique identifier. A valid web token must be provided in the header for authentication.
+- Get all users (/users): Retrieves a list of all users registered in the system. Authentication via a web token is required.
+- Get specific user (/users/{user_id}): Fetches details of a specific user by their unique identifier. A valid web token must be provided in the header for authentication.
 #### POST Routes (Create)
-Login for user (/login): Handles user login, accommodating different user types such as mentor, mentee, and admin. This route is responsible for user authentication and session management.
-Create new meeting (/meetings): Enables the creation of new meetings within the platform. Requires authentication.
-Pairing mentor and mentee (/pairing): Facilitates the pairing of mentors with mentees. A valid web token is required for operation.
-Uploading media (/upload_media): Allows users to upload media files. This route is secured and requires a valid authentication token.
+- Login for user (/login): Handles user login, accommodating different user types such as mentor, mentee, and admin. This route is responsible for user authentication and session management.
+- Create new meeting (/meetings): Enables the creation of new meetings within the platform. Requires authentication.
+- Pairing mentor and mentee (/pairing): Facilitates the pairing of mentors with mentees. A valid web token is required for operation.
+- Uploading media (/upload_media): Allows users to upload media files. This route is secured and requires a valid authentication token.
 #### PUT Routes (Update)
-Change user information (/users/{user_id}): Provides functionality to update user information, such as email and login credentials. Authentication is mandatory for accessing this route.
-Update meeting date (/meetings/{meeting_id}): Enables updating the scheduled date for an existing meeting. A valid web token is required for this operation.
+- Change user information (/users/{user_id}): Provides functionality to update user information, such as email and login credentials. Authentication is mandatory for accessing this route.
+- Update meeting date (/meetings/{meeting_id}): Enables updating the scheduled date for an existing meeting. A valid web token is required for this operation.
 #### DELETE Routes (Delete)
-Delete user (/users/{user_id}): Allows for the removal of a user from the platform. This action requires user authentication for security reasons.
-Delete meeting (/meetings/{meeting_id}): Provides the ability to delete a scheduled meeting. A web token must be provided for authentication.
-Delete media (/media/{media_id}): Enables users to delete previously uploaded media. This route is secured and requires authentication.
+- Delete user (/users/{user_id}): Allows for the removal of a user from the platform. This action requires user authentication for security reasons.
+- Delete meeting (/meetings/{meeting_id}): Provides the ability to delete a scheduled meeting. A web token must be provided for authentication.
+- Delete media (/media/{media_id}): Enables users to delete previously uploaded media. This route is secured and requires authentication.
